@@ -6835,6 +6835,18 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+#landing {
+  height: 100vh;
+  background: url(../images/landing.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  position: relative; }
+  #landing h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; }
+
 main {
   text-align: center; }
 

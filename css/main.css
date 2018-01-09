@@ -6835,6 +6835,24 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+.brand-logo {
+  margin-left: 10px;
+  left: 0; }
+
+.navbar-fixed .nav.scrolled {
+  height: 65px !important;
+  transition: all 0.5s ease-in-out;
+  background-color: white !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important; }
+  .navbar-fixed .nav.scrolled a {
+    color: black !important; }
+.navbar-fixed .nav {
+  height: 80px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: none !important; }
+  .navbar-fixed .nav a {
+    color: white !important; }
+
 #landing {
   height: 100vh;
   background: url(../images/landing.jpg) no-repeat 50% 50%;

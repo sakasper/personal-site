@@ -1,4 +1,60 @@
 #about {
-	height: 100vh;
+	height: calc(100vh - 65px);
 	background-color: rgb(230, 230, 230);
+	overflow: hidden;
+
+	hr {
+		width: 20%;
+	}
+
+	.container {
+		width: 85%;
+		height: 100%;
+		position: relative;
+	}
+
+	.text-wrapper {
+		height: 100%;
+		position: relative;
+	}
+
+
+	.row {
+		position: relative;
+	}
+
+	// .text-wrapper {
+	// 	height: 100%;
+	// }
+
+	.image-container {
+		position: relative;
+		height: 100%;
+	}
+
+	.text-container {
+		position: absolute;
+		p {
+			padding-left: 10%;
+			padding-right: 10%;
+		}
+		top: 45%;
+		transform: translateY(-50%);
+	}
+
+	.card {
+		// width: 360px;
+		width: 60%;
+		height: auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+
+		img {
+			max-width: 100%;
+			height: auto;
+			padding: 10px 10px;
+		}
+	}
 }

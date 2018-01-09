@@ -1,5 +1,38 @@
 #about {
-  height: 100vh;
-  background-color: #e6e6e6; }
+  height: calc(100vh - 65px);
+  background-color: #e6e6e6;
+  overflow: hidden; }
+  #about hr {
+    width: 20%; }
+  #about .container {
+    width: 85%;
+    height: 100%;
+    position: relative; }
+  #about .text-wrapper {
+    height: 100%;
+    position: relative; }
+  #about .row {
+    position: relative; }
+  #about .image-container {
+    position: relative;
+    height: 100%; }
+  #about .text-container {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%); }
+    #about .text-container p {
+      padding-left: 10%;
+      padding-right: 10%; }
+  #about .card {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    #about .card img {
+      max-width: 100%;
+      height: auto;
+      padding: 10px 10px; }
 
 /*# sourceMappingURL=about.css.map */

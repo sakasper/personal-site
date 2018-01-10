@@ -1,3 +1,6 @@
+$nav-color: white;
+$nav-text: black;
+
 .brand-logo {
 	margin-left: 10px;
 	left: 0;
@@ -8,10 +11,10 @@
 	.nav.scrolled {
 		height: 65px !important;
 		transition: all 0.5s ease-in-out;
-		background-color: white !important;
+		background-color: $nav-color !important;
 		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
 		a {
-			color: black !important;
+			color: $nav-text !important;
 		}
 	}
 

@@ -1,0 +1,35 @@
+#expertise {
+  height: calc(100vh - 65px);
+  background-color: white;
+  position: relative; }
+  #expertise h2 {
+    padding-top: 50px; }
+  #expertise hr {
+    width: 10%; }
+  #expertise li {
+    margin-bottom: 10px; }
+    #expertise li svg {
+      margin-right: 10px; }
+
+.banner {
+  height: 50vh;
+  width: 100%;
+  background: url(../images/expertise-banner.png) no-repeat 50% 50%;
+  background-size: cover;
+  position: absolute;
+  bottom: 0; }
+
+.gradient {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(white, rgba(255, 255, 255, 0.7));
+  position: absolute;
+  bottom: 0; }
+
+.skills-container {
+  text-align: left; }
+
+.list-container {
+  display: inline-block; }
+
+/*# sourceMappingURL=expertise.css.map */

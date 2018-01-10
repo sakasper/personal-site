@@ -6968,9 +6968,54 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       height: auto;
       padding: 10px 10px; }
 
+#expertise {
+  height: calc(100vh - 65px);
+  background-color: white;
+  position: relative; }
+  #expertise h2 {
+    padding-top: 50px; }
+  #expertise hr {
+    width: 10%; }
+  #expertise li {
+    margin-bottom: 10px; }
+    #expertise li svg {
+      margin-right: 10px; }
+
+.banner {
+  height: 50vh;
+  width: 100%;
+  background: url(../images/expertise-banner.png) no-repeat 50% 50%;
+  background-size: cover;
+  position: absolute;
+  bottom: 0; }
+
+.gradient {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(white, rgba(255, 255, 255, 0.7));
+  position: absolute;
+  bottom: 0; }
+
+.skills-container {
+  text-align: left; }
+
+.list-container {
+  display: inline-block; }
+
 /* default font-face for the entire web-page */
 main {
   text-align: center;
-  font-family: "Lato"; }
+  font-family: "Lato";
+  flex: 1 0 auto; }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+footer.page-footer {
+  text-align: center;
+  background-color: #4f4a4a;
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */

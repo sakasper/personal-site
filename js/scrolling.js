@@ -5,7 +5,11 @@ function addSmoothScrolling () {
 	controller.scrollTo(function (target, params) {
 		var duration = params.duration;
 		var animateSkillSection = params.animateSkills;
-		$('html,body').animate({scrollTop : target}, duration);
+		var adjustedTarget = 0;
+		if(target != 0) {
+			adjustedTarget = target - 65;
+		}
+		$('html,body').animate({scrollTop : adjustedTarget}, duration);
 		if(animateSkillSection){
 			animateSkills();
 		}

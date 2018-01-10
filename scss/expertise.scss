@@ -6,7 +6,7 @@ $expertise-bg-color: white;
 	position: relative;
 
 	h2 {
-		padding-top: 50px;
+		padding-top: 65px;
 	}
 
 	hr {
@@ -15,6 +15,7 @@ $expertise-bg-color: white;
 
 	li {
 		margin-bottom: 10px;
+		white-space: nowrap;
 		svg {
 			margin-right: 10px;
 		}
@@ -37,7 +38,7 @@ $expertise-bg-color: white;
 .gradient {
 	height: 50vh;
 	width: 100%;
-	background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.7));
+	background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.65));
 	position: absolute;
 	bottom: 0;
 }
@@ -48,6 +49,7 @@ $expertise-bg-color: white;
 
 .list-container {
 	display: inline-block;
+	min-width: 850px;
 }
 
 

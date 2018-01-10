@@ -6973,11 +6973,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background-color: white;
   position: relative; }
   #expertise h2 {
-    padding-top: 50px; }
+    padding-top: 65px; }
   #expertise hr {
     width: 10%; }
   #expertise li {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    white-space: nowrap; }
     #expertise li svg {
       margin-right: 10px; }
 
@@ -6992,7 +6993,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .gradient {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(white, rgba(255, 255, 255, 0.7));
+  background: linear-gradient(white, rgba(255, 255, 255, 0.65));
   position: absolute;
   bottom: 0; }
 
@@ -7000,7 +7001,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   text-align: left; }
 
 .list-container {
-  display: inline-block; }
+  display: inline-block;
+  min-width: 850px; }
 
 /* default font-face for the entire web-page */
 main {

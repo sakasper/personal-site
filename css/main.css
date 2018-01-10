@@ -6934,7 +6934,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 #about {
   height: calc(100vh - 65px);
   background-color: #e6e6e6;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: left; }
   #about hr {
     width: 20%; }
   #about .container {
@@ -6953,9 +6954,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     position: absolute;
     top: 45%;
     transform: translateY(-50%); }
-    #about .text-container p {
-      padding-left: 10%;
-      padding-right: 10%; }
   #about .card {
     width: 60%;
     height: auto;
@@ -6970,20 +6968,24 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 #expertise {
   height: calc(100vh - 65px);
-  background-color: white;
-  position: relative; }
+  background: url(../images/background-expertise.png) no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
+  overflow: hidden; }
   #expertise h2 {
     padding-top: 65px; }
   #expertise hr {
     width: 10%; }
   #expertise li {
     margin-bottom: 10px;
-    white-space: nowrap; }
+    white-space: nowrap;
+    transform: translateX(10%);
+    opacity: 1; }
     #expertise li svg {
       margin-right: 10px; }
 
 .banner {
-  height: 50vh;
+  height: 50%;
   width: 100%;
   background: url(../images/expertise-banner.png) no-repeat 50% 50%;
   background-size: cover;
@@ -6991,7 +6993,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   bottom: 0; }
 
 .gradient {
-  height: 50vh;
+  height: 50%;
   width: 100%;
   background: linear-gradient(white, rgba(255, 255, 255, 0.65));
   position: absolute;

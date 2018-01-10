@@ -1,7 +1,8 @@
 #about {
   height: calc(100vh - 65px);
   background-color: #e6e6e6;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: left; }
   #about hr {
     width: 20%; }
   #about .container {
@@ -20,9 +21,6 @@
     position: absolute;
     top: 45%;
     transform: translateY(-50%); }
-    #about .text-container p {
-      padding-left: 10%;
-      padding-right: 10%; }
   #about .card {
     width: 60%;
     height: auto;

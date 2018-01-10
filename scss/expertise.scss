@@ -2,7 +2,8 @@ $expertise-bg-color: white;
 
 #expertise {
 	height: calc(100vh - 65px);
-	background-color: $expertise-bg-color;
+	background: url(../images/background-expertise.png) no-repeat 50% 50%;//$expertise-bg-color;
+	background-size: cover;
 	position: relative;
 
 	h2 {
@@ -16,10 +17,15 @@ $expertise-bg-color: white;
 	li {
 		margin-bottom: 10px;
 		white-space: nowrap;
+		//transform: translateX(14%);
+		transform: translateX(10%);
+		opacity: 1;
 		svg {
 			margin-right: 10px;
 		}
 	}
+
+	overflow: hidden;
 
 
 
@@ -27,7 +33,7 @@ $expertise-bg-color: white;
 }
 
 .banner {
-	height: 50vh;
+	height: 50%;
 	width: 100%;
 	background: url(../images/expertise-banner.png) no-repeat 50% 50%;;
 	background-size: cover;
@@ -36,11 +42,12 @@ $expertise-bg-color: white;
 }
 
 .gradient {
-	height: 50vh;
+	height: 50%;
 	width: 100%;
 	background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.65));
 	position: absolute;
 	bottom: 0;
+
 }
 
 .skills-container {

@@ -32,12 +32,16 @@
 
 	.text-container {
 		position: absolute;
-		p {
-			// padding-left: 10%;
-			// padding-right: 10%;
-		}
 		top: 45%;
 		transform: translateY(-50%);
+
+		.name {
+			text-decoration: underline;
+			font-weight: 1000;
+		}
+		.phonetics {
+			font-weight: 1000;
+		}
 	}
 
 	.card {

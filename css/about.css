@@ -21,6 +21,11 @@
     position: absolute;
     top: 45%;
     transform: translateY(-50%); }
+    #about .text-container .name {
+      text-decoration: underline;
+      font-weight: 1000; }
+    #about .text-container .phonetics {
+      font-weight: 1000; }
   #about .card {
     width: 60%;
     height: auto;

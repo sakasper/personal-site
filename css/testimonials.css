@@ -6,34 +6,28 @@
   height: calc(100vh - 65px);
   overflow: hidden; }
 
+.testimonials-nav {
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+  .testimonials-nav svg {
+    font-size: 3.0em; }
+
+.right-aligned {
+  right: 10%; }
+
+.left-aligned {
+  left: 10%; }
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.slider__navi {
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  z-index: 999; }
-
-.slider__navi a {
-  display: block;
-  height: 6px;
-  width: 20px;
-  margin: 20px 0;
-  text-indent: -9999px;
-  box-shadow: none;
-  border: none;
-  background: rgba(0, 0, 0, 0.2); }
-
-.slider__navi a.active {
-  background: white; }
+.testimonials-hr {
+  width: 100px;
+  margin-top: -1.5em; }
 
 body {
   position: relative;
@@ -75,13 +69,19 @@ body {
 
 .text--big {
   font-family: "Lato";
-  font-size: 7.5em;
+  font-size: 1.2em;
   font-weight: 700;
-  line-height: 110px;
-  margin-left: -8px; }
+  line-height: 40px;
+  margin-left: -8px;
+  margin-bottom: 0; }
+
+.job-title {
+  margin-top: 0;
+  font-size: 1.0em; }
 
 .text--normal {
-  font-size: 13px;
+  font-style: italic;
+  font-size: 19px;
   color: rgba(255, 255, 255, 0.8);
   line-height: 22px;
   margin-top: 25px; }
@@ -129,63 +129,39 @@ body {
 .flex--active .flex__item--right {
   opacity: 1; }
 
-/* Piplup */
-.flex--piplup .flex__item--left {
-  background: #3e9fe6; }
+/* First Slide */
+.flex--first .flex__item--left {
+  background: #49516F; }
 
-.flex--piplup .flex__item--right {
-  background: #d3eaef; }
+/* Second Slide */
+.flex--second .flex__item--left {
+  background: #1e3c6d; }
 
-/* Pikachu */
-.flex--pikachu .flex__item--left {
-  background: #f8d41f; }
+/* Third Slide */
+.flex--third .flex__item--left {
+  background: #405260; }
 
-.flex--pikachu .flex__item--right {
-  background: #f4ecc5; }
-
-/* Blaziken */
-.flex--blaziken .flex__item--left {
-  background: #f64f37; }
-
-.flex--blaziken .flex__item--right {
-  background: #ffebcd; }
-
-/* Dialga */
-.flex--dialga .flex__item--left {
+/* Fourth Slide */
+.flex--fourth .flex__item--left {
   background: #476089; }
 
-.flex--dialga .flex__item--right {
-  background: #ade8f7; }
-
-/* Zekrom */
-.flex--zekrom .flex__item--left {
-  background: #424242; }
-
-.flex--zekrom .flex__item--right {
-  background: #a7bcbb; }
+/* Fifth Slide */
+.flex--fifth .flex__item--left {
+  background: #324A5F; }
 
 .flex__content {
-  margin-left: 50%;
-  width: 55%;
+  width: 100%;
+  left: 50%;
+  position: absolute;
   opacity: 1;
   transform: translateX(-50%) translate3d(0, 0, 0);
   transition: transform 0.2s linear 0.2s, opacity 0.1s linear 0.2s; }
-
-.pokemon__img {
-  position: absolute;
-  bottom: 20px;
-  right: 15%;
-  max-height: 40vw;
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-  transition: opacity 0.43s 0.6s, transform 0.4s 0.65s cubic-bezier(0, 0.88, 0.4, 0.93); }
+  .flex__content p {
+    width: 55%;
+    margin-left: 22.5%; }
 
 /* Animate-START point */
 .flex__container.animate--start .flex__content {
-  transform: translate3d(0, 0, 0);
-  opacity: 0; }
-
-.flex__container.animate--start .pokemon__img {
   transform: translate3d(0, 0, 0);
   opacity: 0; }
 
@@ -197,10 +173,6 @@ body {
   transform: scaleX(0); }
 
 .flex__container.animate--end .flex__content {
-  transform: translate3d(0, 0, 0);
-  opacity: 0; }
-
-.flex__container.animate--end .pokemon__img {
   transform: translate3d(0, 0, 0);
   opacity: 0; }
 

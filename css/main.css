@@ -7190,11 +7190,11 @@ body {
 
 /* First Slide */
 .flex--first .flex__item--left {
-  background: #49516F; }
+  background: #405260; }
 
 /* Second Slide */
 .flex--second .flex__item--left {
-  background: #1e3c6d; }
+  background: #405260; }
 
 /* Third Slide */
 .flex--third .flex__item--left {
@@ -7202,11 +7202,11 @@ body {
 
 /* Fourth Slide */
 .flex--fourth .flex__item--left {
-  background: #476089; }
+  background: #405260; }
 
 /* Fifth Slide */
 .flex--fifth .flex__item--left {
-  background: #324A5F; }
+  background: #405260; }
 
 .flex__content {
   width: 100%;
@@ -7232,6 +7232,43 @@ body {
 .flex__container.animate--end .flex__content {
   transform: translate3d(0, -50%, 0);
   opacity: 0; }
+
+#volunteering {
+  height: calc(100vh - 65px);
+  background-color: #e6e6e6; }
+  #volunteering .container {
+    height: 100%;
+    width: 85%; }
+    #volunteering .container .row {
+      height: 100%; }
+  #volunteering .half-page {
+    height: 100%;
+    position: relative; }
+    #volunteering .half-page img {
+      height: 70%;
+      width: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 10px solid white;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  #volunteering .service-text-container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left; }
+    #volunteering .service-text-container span {
+      font-style: italic; }
+    #volunteering .service-text-container svg {
+      margin-right: 10px; }
+    #volunteering .service-text-container li {
+      margin-bottom: 5px;
+      margin-top: 5px; }
+    #volunteering .service-text-container hr {
+      width: 20%; }
 
 main {
   text-align: center;

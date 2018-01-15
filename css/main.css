@@ -7085,7 +7085,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   top: 50%;
   transform: translateY(-50%); }
   .testimonials-nav svg {
-    font-size: 3.0em; }
+    font-size: 3.0em;
+    color: white;
+    opacity: 0.6; }
+  .testimonials-nav svg:hover {
+    color: white;
+    opacity: 0.8; }
 
 .right-aligned {
   right: 10%; }
@@ -7232,6 +7237,13 @@ body {
 .flex__container.animate--end .flex__content {
   transform: translate3d(0, -50%, 0);
   opacity: 0; }
+
+.quote {
+  display: inline-block;
+  font-size: 0.75em;
+  margin-left: 5px;
+  margin-right: 5px;
+  transform: translateY(-0.3em); }
 
 #volunteering {
   height: calc(100vh - 65px);

@@ -13,6 +13,13 @@
 
 	svg {
 		font-size: 3.0em;
+		color: white;
+		opacity: 0.6;
+	}
+
+	svg:hover {
+		color: white;
+		opacity: 0.8;
 	}
 }
 
@@ -231,4 +238,12 @@ body {
 .flex__container.animate--end .flex__content {
 	transform: translate3d(0, -50%, 0);
 	opacity: 0;
+}
+
+.quote {
+	display: inline-block;
+	font-size: 0.75em;
+	margin-left: 5px;
+	margin-right: 5px;
+	transform: translateY(-0.3em);
 }

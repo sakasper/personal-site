@@ -140,6 +140,12 @@ body {
 .flex--fifth .flex__item--left {
   background: #405260; }
 
+.flex--sixth .flex__item--left {
+  background: #405260; }
+
+.flex--seventh .flex__item--left {
+  background: #405260; }
+
 .flex__content {
   width: 100%;
   left: 50%;

@@ -7,4 +7,5 @@ function smallScreenRedirectIfNeeded() {
 $(document).ready(function () {
 	initializeScrolling();
 	smallScreenRedirectIfNeeded();
+	window.addEventListener("resize", smallScreenRedirectIfNeeded);
 });

@@ -25,4 +25,17 @@
 			</div>
 		</div>
 	</body>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+		function checkIfBigEnough() {
+			if(($(window).width() >= 1300)) {
+				window.location="index.html";
+			}
+		}
+
+		$(document).ready(function () {
+			window.addEventListener("resize", checkIfBigEnough);
+		});
+	</script>
 </html>
